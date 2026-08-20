@@ -1,6 +1,7 @@
 - name: ping module
   hosts: vinay
   become : yes
+  serial : 2
   tasks:
   - name : ping 
     ping: 
