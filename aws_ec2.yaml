@@ -6,7 +6,7 @@ regions:
 
 hostnames:
   # This option allows displaying the public ip addresses.
-  - private-ip-address
+  - publice-ip-address
 
 filters:
   tag:Name: frontend
