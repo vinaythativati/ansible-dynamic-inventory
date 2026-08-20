@@ -13,5 +13,5 @@ filters:
   instance-state-name : running
 
 keyed_groups:
-- key: ec2_tags.frontend
+- key: tags.Name
   separator: ''
