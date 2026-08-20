@@ -9,7 +9,7 @@ hostnames:
   - private-ip-address
 
 filters:
-  tag:Name: frontend
+  tag:Name: vinay
   instance-state-name : running
 
 keyed_groups:

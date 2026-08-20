@@ -1,5 +1,5 @@
 - name: ping module
-  hosts: frontend
+  hosts: vinay
   become : yes
   tasks:
   - name : ping 
