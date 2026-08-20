@@ -5,3 +5,12 @@
   tasks:
   - name : ping 
     ping: 
+  - name : installing nginx
+    package :
+      name : nginx
+      state : present
+  - name : started
+    service :
+      name : nginx
+      state : started
+      
