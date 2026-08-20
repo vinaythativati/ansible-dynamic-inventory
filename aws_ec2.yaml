@@ -6,8 +6,8 @@ regions:
 
 hostnames:
   # This option allows displaying the public ip addresses.
-  - ip-address
-  - name: 'private-ip-address'
+  - private-ip-address
+
 filters:
   tag:Name: vinay
   instance-state-name : running
