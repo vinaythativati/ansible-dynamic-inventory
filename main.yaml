@@ -1,0 +1,6 @@
+- name: ping module
+  hosts: frontend
+  become : yes
+  tasks:
+  - name : ping 
+    ping: 
